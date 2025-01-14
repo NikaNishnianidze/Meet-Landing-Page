@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.meet {
+  display: flex;
+  margin: 48px auto 0 auto;
+  width: 119px;
+  height: 28px;
+}
+
+.people {
+  width: 414px;
+  height: 153px;
+  margin-top: 54px;
+}
