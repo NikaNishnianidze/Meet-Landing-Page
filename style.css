@@ -102,3 +102,47 @@ header h3 {
   font-weight: 900;
   line-height: 26px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 24px 64px 24px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.description {
+  margin-top: 64px;
+}
+
+main h3 {
+  color: #4d96a9;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+main h2 {
+  color: #28283d;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+main p {
+  color: #87879d;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 32px;
+}
